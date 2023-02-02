@@ -10,7 +10,7 @@ export default  function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="Sunrise" />
       </main>
       <footer className="text-center">Coded by VicCodes</footer>
       </div>
