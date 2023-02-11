@@ -7,7 +7,7 @@ export default  function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1 className="text-center">VicCodes</h1>
       </header>
       <main>
         <Dictionary defaultKeyword="Sunrise" />

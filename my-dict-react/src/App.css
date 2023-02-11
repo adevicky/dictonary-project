@@ -1,3 +1,8 @@
+.App {
+  background-color:#e8e1e1 ;
+  max-width: 900px;
+  margin: 0 auto;
+}
 .App-header {
 margin: 30px 0;
 }
@@ -10,4 +15,7 @@ margin: 30px 0;
   font-family: monospace;
   font-weight: 500;
   line-height: 1.5;
+}
+.App h1 {
+  font-weight: bold;
 }
