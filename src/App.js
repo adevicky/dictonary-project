@@ -7,7 +7,7 @@ export default  function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <h1 className="text-center">VicCodes</h1>
+        <h1 className="text-center mt-2">VicCodes</h1>
       </header>
       <main>
         <Dictionary defaultKeyword="Sunrise" />
