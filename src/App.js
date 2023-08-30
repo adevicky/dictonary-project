@@ -1,4 +1,3 @@
-import logo from "./logo.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,12 +6,14 @@ export default  function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <h1 className="text-center mt-2">VicCodes</h1>
+        <h1 className="heading">Dictionary</h1>
       </header>
       <main>
         <Dictionary defaultKeyword="Sunrise" />
       </main>
-      <footer className="text-center">Coded by VicCodes</footer>
+      <footer className="footer"><span>Created By <a href="adenugavictoria29@gmail.com">Adenuga Victoria</a> | <span class="far fa-copyright"></span>
+        2023 <a href="https://www.github.com/adevicky" target="_blank" rel="noreferrer" title="Adenuga Victoria-Github profile">Privacy
+            Policy</a></span></footer>
       </div>
     </div>
   );

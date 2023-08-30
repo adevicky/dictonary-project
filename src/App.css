@@ -1,5 +1,5 @@
 .App {
-  background-color:#2a2b02;
+  background-color: #013d29;
   max-width: 900px;
   padding: 0 30px;
   margin: 0 auto;
@@ -15,11 +15,23 @@ margin: 30px 0;
 .App footer {
   font-family: monospace;
   font-weight: 500;
-  line-height: 1.5;
+  color: #fff;
+  padding: 10px 0;
+  opacity: 0.7;
+  text-align: center;
 }
 .App h1 {
   margin-top: 10px;
+  text-align: center;
+  font-size: 40px;
   font-weight: bold;
   color: #fff;
   opacity: 0.7;
+}
+.App .footer a {
+  text-decoration: none;
+  color: #7fffd4;
+}
+.App .footer a:hover {
+  color: #000;
 }
